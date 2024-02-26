@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(175, 174, 174);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fefefe;
+    margin: 0px auto;
+    padding: 0 200px;
+    width: 1080px;
+    height: 100%;
+}
+
+/* trafalgar logo */
+.logo {
+    background-color: #458FF6;
+    color: #fefefe;
+    border-radius: 18px;
+    margin: 10px 15px;
+    padding: 3px 10px;
+    display: inline-block;
+}
+
+h1 {
+    color: #000000;
+    display: inline-block;
+}
+.nav-logo {
+    display: flex;
+    margin: 10px 10px;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #1F1534;
+    line-height: 30px;
+    justify-content: center;
+    opacity: 0.5;
+    /* font-size: 18px; */
+    transition: 0.3s;
+    padding: 15px;
+
+}
+
+a:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+img {
+    text-align: right;
+    margin: 30px;
+}
+
+p {
+    display: inline-block;
+}
+
+.hero h1 {
+    display: block;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    margin: 30px;
+}
+
+.consult-btn {
+    background-color: #fefefe;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    padding: 14px 80px;
+    cursor: pointer; 
+    transition: 0.3s;  
+}
+
+.consult-btn:hover {
+    color: #fefefe;
+    background-color: #458FF6;
+    box-shadow: #458FF6 4px 4px 15px,
+                #458FF6 -4px -4px 15px;
+    transition: 0.3s;  
+}
+
+.ab-servise {
+    text-align: center;
+}
+
+.ab-servise h2 {
+    font-size: 30px;
+}
+
+.ab-servise-txt {
+    color: #7D7987;
+    width: 80%;
+}
+
+.cards1-6 div{
+    display: inline-block;
+    border-radius: 15px;
+    background-color: rgba(242, 242, 242, 0.271);
+    width: 270px;
+    height: 340px;
+    margin-left: 66px;
+    margin-top: 20px;
+    box-shadow: rgb(201, 201, 201) 2px 2px 15px;
+    padding: 15px;
+}
+
+.cards1-6 {
+    margin-top: 60px;
+}
+
+.cards1-6 h2 {
+    margin: 20px auto;
+}
+
+.pharmacy, .consultation, .details, .emergency, .tracking p {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.search {
+    margin-bottom: 100px;
+}
+
+.midle-btn {
+    background-color: #fefefe;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    padding: 17px 60px;
+    cursor: pointer; 
+    justify-content: center;
+    margin-left: 440px;
+    margin-top: 30px;
+    font-size: larger;
+    transition: 0.3s;
+
+}   
+
+.midle-btn:hover {
+    color: #fefefe;
+    background-color: #458FF6;
+    box-shadow: #458FF6 4px 4px 15px,
+                #458FF6 -4px -4px 15px;
+    transition: 0.3s;
+}
+
+.hero-2 {
+    display: flex;
+    width: 80%;
+}
+
+.hero-2 h2 {
+    font-size: 50px;
+    
+}
+.hero-2-txt {
+    width: 80%;
+    text-align: center;
+}
+
+.download-txt {
+    /* display: inline-block; */
+    margin-top: 30px;
+}
+
+.download {
+    display: flex;
+    margin: 30px;
+    padding: 10px 40px;
+}
+
+.download-btn {
+    display: flex;
+    border: 2px solid #458FF6;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fff;
+    color: #458FF6;
+    margin-top: 10px;
+    padding: 12px 20px;
+    width: 40%;
+    font-weight: bolder;
+    padding-left: 48px;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #458FF6;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.download-btn:active {
+    box-shadow: 0px 0px 25px #458FF6;
+    transform: scale(0.97);
+}
+
+.download-icon {
+    font-size: small;
+    display: flex;
+    margin: 2px;
+    margin-left: 10px;
+}
+
+.download-icon:hover {
+    color: #fefefe;
+    transition: 0.3s;
+}
+
+
+.box{
+    height: 425px;  
+    width: 1120px;
+    background: linear-gradient(#67C3F3, #5A98F2);
+    border-radius: 30px;
+}
+
+.box .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.box .content .head_txt h1{
+    color: #fff;
+    margin-bottom: 40px;
+}
+.texts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+}
+.line{
+    background: #fff;
+    border-radius: 20px;
+    width: 40px;
+    height: 3px;
+}
+.texts .one_text{
+    display: flex;
+    margin-right: 90px;
+    align-items: center;
+}
+.texts .one_text .contet_text{
+    display: flex;
+    flex-direction: column;
+}
+.one_text .contet_text h1, p{
+    color: #fff;
+}
+.second_text h2{
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+}
+.boxes .item{
+    background-color: #4089ED;
+}
+.boxes .item .box_text{
+    display: flex;
+    flex-direction: column;
+}
+.article_sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.article_sec .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article_sec .boxes .item{
+    height: 512px;
+    width: 462px;
+    margin: 30px 20px;
+    border-radius: 30px;
+}
+.article_sec .boxes .item .box_text{
+    margin: 0 30px;
+}
+.article_sec h1{
+    font-size: 21px;
+    color: #000;
+    font-weight: 700;
+}
+.article_sec p{
+    font-size: 16px;
+    color: #7D7987;
+    font-weight: 300;
+}
+.article_sec a{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+}
+.footer{
+    background-color: #4089ED;
+    height: 500px;
+    width: 1080px;
+}
+.footer .items{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items .item_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 60px;
+}
+.footer .items .item h1{
+    font-size: 20px;
+    color: #fff;
+}
+.footer .items .item a{
+    font-size: 18px;
+    color: #fff;
+}
+.footer .items .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
